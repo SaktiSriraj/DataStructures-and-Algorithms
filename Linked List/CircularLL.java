@@ -133,6 +133,7 @@ public class CircularLL {
 				System.out.println("element not found");
 		}
 	}
+	
 	static int count(){
 		int c = 0;
 		circularLL_node d = head;
