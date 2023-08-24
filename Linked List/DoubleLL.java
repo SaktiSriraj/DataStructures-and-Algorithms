@@ -204,8 +204,9 @@ public class DoubleLL {
 					System.out.println("Total number of nodes = " + c);
 					break;
 				default:
-					System.out.println("Wrong choice");
+					System.out.println("Wrong choice");sc.close();
 			}
 		}
+		
 	}
 }
