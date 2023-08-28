@@ -51,5 +51,5 @@ public class Maps {
 
         map.remove("Indonesia");//does nothing, bcz key doesn't exist
         System.out.println(map);
-    }
+   }
 }
