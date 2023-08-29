@@ -1,5 +1,5 @@
 /*
-Given two arrays, find their union
+Given two arrays, find their union.
 */
 
 import java.util.*;
