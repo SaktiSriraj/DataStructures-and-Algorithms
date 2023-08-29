@@ -34,5 +34,13 @@ public class AdjacencyListGrah {
         int V = 4; //vertex in graph
 
         ArrayList<Edge> graph[] = new ArrayList[V];
-        createGraph(graph);    }
+        createGraph(graph);
+
+        //print neighbors of 2
+        for(int i = 0; i<graph[2].size(); i++) {
+            Edge edge = graph[2].get(i);
+            System.out.println(edge.dst + " ");
+        }
+    
+    }
 }
