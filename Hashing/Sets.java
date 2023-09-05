@@ -28,8 +28,7 @@ public class Sets {
         System.out.println(set.size());
 
         //Iterators - .iterator()
-        Iterator it = set.iterator();
-        
+        Iterator<Integer> it = set.iterator();
         //Iterator initially points to null.
         //To return the next value: .next()
         System.out.println("Next: " + it.next());
