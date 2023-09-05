@@ -33,6 +33,7 @@ public class DoubleLL {
 			choice = sc.next().charAt(0);
 		}
 		print();
+		sc.close();
 	}
 
 	static void print() {
@@ -84,6 +85,7 @@ public class DoubleLL {
 			if (flag == 1)
 				System.out.println("element not found");
 		}
+		sc.close();
 	}
 
 	static int count() {
@@ -131,6 +133,7 @@ public class DoubleLL {
 			p.prev = s;
 		}
 		print();
+		sc.close();
 	}
 
 	static void delete() {
@@ -164,6 +167,7 @@ public class DoubleLL {
 				s.next.prev = q;
 				System.out.println("doubleLL_node deleted: " + s.info);
 			}
+			sc.close();
 		}
 		print();
 	}
@@ -206,6 +210,7 @@ public class DoubleLL {
 				default:
 					System.out.println("Wrong choice");sc.close();
 			}
+			sc.close();
 		}
 		
 	}
