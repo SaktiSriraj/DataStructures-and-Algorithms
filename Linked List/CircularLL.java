@@ -29,6 +29,7 @@ public class CircularLL {
 		    choice = sc.next().charAt(0);
 		}
 		print();
+		sc.close();
 	}
 	static void print(){
 		if(head == null)
@@ -73,6 +74,7 @@ public class CircularLL {
 			d.next=p;
 		}
 		print();
+		sc.close();
 	}
 	static void delete(){
 		if(head == null)
@@ -107,6 +109,7 @@ public class CircularLL {
 					tail=q;
 			}
 		   	print();
+			sc.close();
 		}
 	}
 	static void search(){
@@ -132,6 +135,7 @@ public class CircularLL {
 			if(flag==1)
 				System.out.println("element not found");
 		}
+		sc.close();
 	}
 	
 	static int count(){
@@ -171,6 +175,7 @@ public class CircularLL {
 				default:
 					System.out.println("Wrong choice");
 			}
+			sc.close();
 		}
 	}
 }
